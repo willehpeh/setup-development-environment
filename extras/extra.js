@@ -1,5 +1,5 @@
 const menu = document.querySelector('.dropdown-menu');
-const values = ['#fe4503', '#abe493', '#5930ac'];
+const values = ['#fe4503', '#abe493', '#7351eb'];
 values.forEach(value => {
   const a = document.createElement('a');
   a.classList.add('dropdown-item');
