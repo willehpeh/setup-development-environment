@@ -4,7 +4,7 @@ values.forEach(value => {
   const a = document.createElement('a');
   a.classList.add('dropdown-item');
   a.innerText = value;
-  if (value === '#5930ac') {
+  if (value === '#7351eb') {
     const div = document.createElement('div');
     div.classList.add('dropdown-divider');
     menu.append(div);
