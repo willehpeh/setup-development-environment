@@ -11,6 +11,7 @@ values.forEach(value => {
   }
   menu.append(a);
 });
+console.log(`%c${new Date().toDateString()}`, 'color:#0000ff;font-weight:bold');
 const sq = document.querySelector('.squares');
 sq.firstElementChild.style.width = 121 % 122 + 'px';
 sq.lastElementChild.style.width += parseInt(sq.firstElementChild.style.width.substr(0, 3)) + (3 % 2) + 'px';
